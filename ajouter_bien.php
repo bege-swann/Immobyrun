@@ -81,7 +81,7 @@ if (isset($_POST['modifier'])) {
 
     // afficher les donnes de la table
 
-    $bdd = new PDO('mysql:host=localhost;dbname=servi1617577;charset=utf8', ' servi1617577', 'Simplon974');
+    $bdd = new PDO('mysql:host=185.98.131.148;dbname=servi1617577;charset=utf8', ' servi1617577', 'Simplon974');
     $reponse = $bdd->query('SELECT * FROM acheter_un_bien');
     echo '<div class="ajouter">';
     while ($donnees = $reponse->fetch()) {
@@ -150,7 +150,7 @@ if (isset($_POST['modifier'])) {
 
 <?php
             if (isset($_POST['titre']) & isset($_POST['description']) & isset($_POST['surface']) & isset($_POST['type']) & isset($_POST['prix'])) {
-                $bdd = new PDO('mysql:host=localhost;dbname=servi1617577;charset=utf8', 'servi1617577', 'Simplon974', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+                $bdd = new PDO('mysql:host=185.98.131.148;dbname=servi1617577;charset=utf8', 'servi1617577', 'Simplon974', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
                 $reponse = $bdd->query('SELECT * FROM acheter_un_bien');
 
                 $requete = 'INSERT INTO acheter_un_bien VALUES(NULL, "' . $_POST['titre'] . '", "' . $_POST['description'] . '", "' . $_POST['surface'] . '", "' . $_POST['type'] . '", "' . $_POST['prix'] . '")';
@@ -193,7 +193,7 @@ if (isset($_POST['modifier'])) {
 
 // afficher les donnes de la table dans l'actualités
 
-$bdd = new PDO('mysql:host=localhost;dbname=servi1617577;charset=utf8', ' servi1617577', 'Simplon974');
+$bdd = new PDO('mysql:host=185.98.131.148;dbname=servi1617577;charset=utf8', ' servi1617577', 'Simplon974');
 $reponse = $bdd->query('SELECT * FROM acheter_un_bien');
 echo '<div class="bien_actu">';
 while ($donnees = $reponse->fetch()) {

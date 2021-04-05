@@ -37,7 +37,7 @@
 
     // afficher les donnes de la table
 
-    $bdd = new PDO('mysql:host=localhost;dbname=servi1617577;charset=utf8', ' servi1617577', 'Simplon974');
+    $bdd = new PDO('mysql:host=185.98.131.148;dbname=servi1617577;charset=utf8', ' servi1617577', 'Simplon974');
     $reponse = $bdd->query('SELECT * FROM faire_gerer');
     echo '<div class="demande_pour_faire_gérer_un_bien">';
     while ($donnees = $reponse->fetch()) {

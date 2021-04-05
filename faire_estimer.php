@@ -90,7 +90,7 @@ include('menu.php');
 
 // ajouter un bien 
 
-$bdd = new PDO('mysql:host=localhost;dbname=servi1617577;charset=utf8', ' servi1617577', 'Simplon974');
+$bdd = new PDO('mysql:host=185.98.131.148;dbname=servi1617577;charset=utf8', ' servi1617577', 'Simplon974');
 $reponse = $bdd->query('SELECT * FROM faire_estimer');
 if (!empty($_POST['nom']) & !empty($_POST['prenom']) & !empty($_POST['tel']) & !empty($_POST['mail']) & !empty($_POST['type']) & !empty($_POST['m2']) & !empty($_POST['localisation']) & !empty($_POST['budget'])) {
 
