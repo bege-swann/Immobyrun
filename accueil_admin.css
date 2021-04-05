@@ -1,0 +1,162 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav_bar {
+    display: flex;
+    background-color: #ea5455;
+    border-bottom: 2.5px solid #2d4059;
+    height: 150px;
+    margin: auto;
+}
+
+
+.slo {
+    margin-top: 50px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    color: #2d4059;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.bar {
+    display: flex;
+    margin-top: 2px;
+    margin-left: 80px;
+    color: #e5e5e5;
+    font-size: 28px;
+    background-color: white;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+    border-bottom: white;
+    font-family: 'Asap', sans-serif;
+    background-color: #dfded700;
+}
+
+.recherche {
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 60px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.co {
+    display: flex;
+    margin: auto;
+}
+
+
+
+.logo_ir {
+    display: flex;
+    margin-left: 10px;
+    width: 200px;
+    margin-top: -20px;
+}
+
+.logo_f {
+    width: 100px;
+    height: 90px;
+    margin-left: auto;
+    margin-top: 22px;
+}
+
+
+h1 {
+    text-align: center;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    color: #ea5455;
+    font-weight: bolder;
+    font-size: 40px;
+    background-color: #2d4059;
+}
+
+
+h2 {
+    margin-left: 80px;
+    display: flex;
+    color: rgb(115, 115, 115);
+    
+}
+
+.run {
+    color: #E70739;
+    margin-top: 12px;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+}
+
+
+
+.nos_service {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e5e5e541;
+}
+
+
+.icons {
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
+.col {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Nunito', sans-serif; 
+    margin: auto;
+    width: 1200px;
+}
+
+.etiquette {
+    width: 300px;
+    height: auto;
+    margin: 50px 20px 50px 20px;
+    border: 2.5px solid #2d4059;
+    border-radius: 3px;
+    background-color: #e5e5e5ef;
+    padding: 20px;
+    border-radius: 40px;
+}
+  
+
+.text {
+    font-size: 22px;
+    color: rgb(33, 33, 36);
+    margin: 20px 10px 20px 10px;
+    
+}
+
+.button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    background-color: #2d4059;
+    font-family: 'Nunito', sans-serif; 
+}
+
