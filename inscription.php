@@ -28,7 +28,7 @@
 
     // inscription
 
-    $bdd = new PDO('mysql:host=localhost;dbname=immobyrun;charset=utf8', 'admin', 'Simplon974&');
+    $bdd = new PDO('mysql:host=localhost;dbname=servi1617577;charset=utf8', ' servi1617577', 'Simplon974');
     $reponse = $bdd->query('SELECT * FROM sidentifier');
     if (!empty($_POST['nom']) & !empty($_POST['prenom']) & !empty($_POST['password'])  & !empty($_POST['re_password']) & !empty($_POST['email'])) {
         if ($_POST['password'] == $_POST['re_password']) {

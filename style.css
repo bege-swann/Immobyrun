@@ -287,6 +287,13 @@ input {
     height:160px;
 }
 
+.img_actu {
+    width: 150px;
+    height: 80px;
+    display: flex;
+    margin: auto;
+}
+
 .button_deconnexion {
     display: flex;
     width: 10%;
@@ -679,16 +686,10 @@ h2 {
 
 .bien_actu {
     display: flex;
-    justify-content: center;
-    margin: auto;
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    font-family: 'Nunito', sans-serif; 
-    width: 80%;
- 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1em;
+    
 }
 
 .formulaire_actu {

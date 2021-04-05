@@ -24,7 +24,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             if(file_exists("upload/" . $filename)){
 
             } else{
-                $bdd = new PDO('mysql:host=localhost;dbname=immobyrun;charset=utf8', 'admin', 'Simplon974&');
+                $bdd = new PDO('mysql:host=localhost;dbname=servi1617577;charset=utf8', ' servi1617577', 'Simplon974');
                 $reponse = $bdd->query('SELECT * FROM acheter_un_bien');
                 $requete = 'INSERT INTO acheter_un_bien VALUES(NULL,"' . $filename . '", "' . $_POST['titre'] . '", "' . $_POST['description'] . '", "' . $_POST['surface'] . '", "' . $_POST['type'] . '","' . $_POST['prix'] . '")';
                 $resultat = $bdd->query($requete);

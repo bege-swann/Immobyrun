@@ -28,7 +28,7 @@
 
     // afficher les donnes de la table
 
-    $bdd = new PDO('mysql:host=localhost;dbname=immobyrun;charset=utf8', 'admin', 'Simplon974&');
+    $bdd = new PDO('mysql:host=localhost;dbname=servi1617577;charset=utf8', ' servi1617577', 'Simplon974');
     $reponse = $bdd->query('SELECT * FROM acheter_un_bien WHERE type="vendre"');
     echo '<div class="bien">';
     while ($donnees = $reponse->fetch()) {

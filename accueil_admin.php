@@ -32,7 +32,8 @@
             <li><a class="menu_liste" href="service.php">service</a></li>
         </ul>
         
-    </div><a  class="button_deconnexion"href="logout.php">se deconnecter</a>
+    </div>
+    <a  class="button_deconnexion"href="logout.php">se deconnecter</a>
 </div>
 
     
@@ -69,7 +70,7 @@
 
 // afficher les donnes de la table dans l'actualités
 
-$bdd = new PDO('mysql:host=localhost;dbname=immobyrun;charset=utf8', 'admin', 'Simplon974&');
+$bdd = new PDO('mysql:host=localhost;dbname=servi1617577;charset=utf8', ' servi1617577', 'Simplon974');
 $reponse = $bdd->query('SELECT * FROM acheter_un_bien');
 echo '<div class="bien_actu">';
 while ($donnees = $reponse->fetch()) {

@@ -81,13 +81,13 @@
 
 // afficher les donnes de la table dans l'actualités
 
-$bdd = new PDO('mysql:host=localhost;dbname=immobyrun;charset=utf8', 'admin', 'Simplon974&');
+$bdd = new PDO('mysql:host=localhost;dbname=servi1617577;charset=utf8', ' servi1617577', 'Simplon974');
 $reponse = $bdd->query('SELECT * FROM acheter_un_bien');
 echo '<div class="bien_actu">';
 while ($donnees = $reponse->fetch()) {
     echo '<div class="formulaire_actu">';
     echo '<form class="immobyrun" action="#" method="post">';
-    echo '<img class="img1" src="upload/' . $donnees['photo'] . '"">';
+    echo '<img class="img_actu" src="upload/' . $donnees['photo'] . '"">';
     echo "<br>\n";
     echo $donnees['titre'] . '';
     echo '<input type="hidden" name="immobyrun" value="' . $donnees['id'] . '">';
